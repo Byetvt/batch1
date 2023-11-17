@@ -15,5 +15,6 @@ sudo apt install tealdeer -y
 sudo apt install tldr -y
 sudo apt install git -y
 tldr --update
-neofetch
 cpufetch
+gpufetch
+neofetch
