@@ -1,7 +1,19 @@
-sudo apt install neofetch
-sudo apt install gpufetch
-sudo apt install hardinfo
-sudo apt install tldr
-sudo apt install glances
-sudo apt install cmatrix 
+sudo apt install btop -y
+sudo apt install cmatrix -y
+sudo apt install cpufetch -y
+sudo apt install fzf -y
+sudo apt install glances -y
+sudo apt install gpufetch -y
+sudo apt install hardinfo -y
+sudo apt install krita -y
+sudo apt install krusader -y
+sudo apt install neofetch -y
+sudo apt install neovim -y
+sudo apt install netdiscover -y
+sudo apt install pcal -y
+sudo apt install tealdeer -y
+sudo apt install tldr -y
+sudo apt install git -y
+tldr --update
 neofetch
+cpufetch
