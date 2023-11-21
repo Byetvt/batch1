@@ -27,6 +27,14 @@ sudo apt install chromium -y
 sudo apt install xboxdrv -y
 sudo apt install joystick -y
 sudo apt install jstest-gtk -y
+sudo apt install tilex -y
+sudo apt install terminator -y
+sudo apt install alacritty -y
+sudo apt install kitty -y
+sudo apt install rxvt -y
+sudo apt install ncdu -y
+sudo apt install ripgrep -y
+#sudo apt install  -y
 tldr --update
 sudo apt install ttf-mscorefonts-installer -y
 cpufetch
