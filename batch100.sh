@@ -14,6 +14,20 @@ sudo apt install pcal -y
 sudo apt install tealdeer -y
 sudo apt install tldr -y
 sudo apt install git -y
+sudo apt install cifs-utils -y
+sudo apt install ncal -y
+sudo apt install freetuxtv -y
+sudo apt install nmon -y
+sudo apt install bmon -y
+sudo apt install net-tools -y
+sudo apt install smbclient -y
+sudo apt install vlc -y
+sudo apt install ffmeg -y
+sudo apt install chromium -y
+sudo apt install xboxdrv -y
+sudo apt install joystick -y
+sudo apt install jstest-gtk -y
 tldr --update
+sudo apt install ttf-mscorefonts-installer -y
 cpufetch
 neofetch
