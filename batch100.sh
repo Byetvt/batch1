@@ -50,8 +50,8 @@ sudo apt install ttf-mscorefonts-installer -y
 #ls -l bash_aliases
 #source bash_aliases
 #alias
-wget --output-document bash_aliases https://raw.githubusercontent.com/Byetvt/batch1/main/bash_aliases;source bash_aliases
-source bash_aliases
+mv bash_aliases bash_aliases.old
+wget --output-document bash_aliases https://raw.githubusercontent.com/Byetvt/batch1/main/bash_aliases
 alias
 cpufetch
 neofetch
