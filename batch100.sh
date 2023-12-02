@@ -40,16 +40,16 @@ sudo apt install  aisleriot -y
 tldr --update
 sudo apt install ttf-mscorefonts-installer -y
 ## create and append to bash_aliases file
-echo alias lst='"ls -trl"'  >>bash_aliases
-echo alias lss='"ls -Srl"'  >>bash_aliases
-echo alias lsp='"du -sh *"'  >>bash_aliases
-echo alias sizeinmb='"ls -lah"'  >>bash_aliases
-echo alias cl='"clear; pwd; ls -l;"'  >>bash_aliases
-echo alias c='"clear"'  >>bash_aliases
-echo alias lst='"ls -trl"'  >>bash_aliases
-ls -l bash_aliases
-source bash_aliases
-alias
+#echo alias lst='"ls -trl"'  >>bash_aliases
+#echo alias lss='"ls -Srl"'  >>bash_aliases
+#echo alias lsp='"du -sh *"'  >>bash_aliases
+#echo alias sizeinmb='"ls -lah"'  >>bash_aliases
+#echo alias cl='"clear; pwd; ls -l;"'  >>bash_aliases
+#echo alias c='"clear"'  >>bash_aliases
+#echo alias lst='"ls -trl"'  >>bash_aliases
+#ls -l bash_aliases
+#source bash_aliases
+#alias
 cpufetch
 neofetch
 
