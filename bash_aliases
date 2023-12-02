@@ -9,7 +9,6 @@ alias sizeinmb='"ls -lah"
 alias cl='"clear; pwd; ls -l;"
 alias c='"clear"'  
 ls -l bash_aliases
-source bash_aliases
 alias
 ###
 ###
