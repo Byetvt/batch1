@@ -1,4 +1,5 @@
 cat batch100.sh
+echo "wget --output-document batch100.sh https://raw.githubusercontent.com/Byetvt/batch1/main/batch100.sh;chmod 755 batch100.sh;./batch100.sh"
 sudo apt install btop -y
 sudo apt install cmatrix -y
 sudo apt install cpufetch -y
