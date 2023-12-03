@@ -55,6 +55,5 @@ wget --output-document bash_functions https://raw.githubusercontent.com/Byetvt/b
 wget --output-document bash_notes   https://raw.githubusercontent.com/Byetvt/batch1/main/bash_notes
 cpufetch
 neofetch
-echo "source bash_aliases"
-echo "source bash_functions"
+echo "cat bash_notes"
 echo "source bash_aliases; source bash_functions"
