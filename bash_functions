@@ -25,5 +25,8 @@ function set_prompt() {
 PS1="\u@\h \w]\$"
 }
 
+function hunt_tv() {
+freetuxtv -v --open-channel "Hunt Channel"
+}
 
 #
