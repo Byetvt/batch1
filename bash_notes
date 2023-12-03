@@ -24,7 +24,12 @@ done
 # *********
 
 ###########################################
-
+if [ $(cat file.csv | wc -l) -ge "2" ]
+then
+   echo "This has more than 1 line."
+else
+   echo "This has less than 2 lines."
+fi
 # *********
 
 
