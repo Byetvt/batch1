@@ -31,6 +31,7 @@ freetuxtv -v --open-channel "Hunt Channel"
 
 function make_pdf_cal() {
 pcal 2023 -w -s 0.9:0.2:0.1/1.0:1.0:0.8 -o 2023_yearly_color.ps
-)
+}
+
 
 #
