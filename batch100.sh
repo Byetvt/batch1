@@ -35,8 +35,17 @@ sudo apt install kitty -y
 sudo apt install rxvt -y
 sudo apt install ncdu -y
 sudo apt install ripgrep -y
+sudo apt install keepassxc -y
+sudo apt install angrydd -y
+sudo apt install notepadqq -y
+sudo apt install python3-pcbasic -y     # pcbasic to run it
+sudo apt install gparted -y
+sudo apt install aisleriot -y
+#
 #sudo apt install  -y
-sudo apt install  aisleriot -y
+#sudo apt install  -y
+#sudo apt install  -y
+#sudo apt install  -y
 tldr --update
 sudo apt install ttf-mscorefonts-installer -y
 mv bash_aliases bash_aliases.old
