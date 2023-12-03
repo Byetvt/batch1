@@ -21,6 +21,7 @@ alias myip="hostname && hostname -i && date +%m-%d-%Y"
 alias mywgetaliases="wget --output-document bash_aliases https://raw.githubusercontent.com/Byetvt/batch1/main/bash_aliases"
 alias mywgetbatch="wget --output-document batch100.sh https://raw.githubusercontent.com/Byetvt/batch1/main/batch100.sh;chmod 755 batch100.sh;./batch100.sh"
 alias mywgetfunctions="wget --output-document bash_functions https://raw.githubusercontent.com/Byetvt/batch1/main/bash_functions"
+alias myvars="env | grep aa"
 alias netdis="sudo netdiscover -r 192.168.1.1/24"
 alias nowdate='date +"%m-%d-%Y"'
 alias now='date +"%m-%d-%Y %T"'
@@ -29,4 +30,13 @@ alias sha="sha256sum garuda-cinnamon-linux-zen-231029.iso"
 alias ShowMountedDrives='df -h ' 
 alias sizeinmb='"ls -lah" 
 alias tfind="find / -name "filename*.*""
+alias up="uptime --pretty"
+alias whatshell="echo $0"
 ###
+##################################################################
+#unalias aliasname
+#unalias foo
+##################################################################
+aaTEMP="/var/tmp"
+export aaTEMP
+##################################################################
