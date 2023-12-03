@@ -5,6 +5,9 @@
 alias lst="ls -trl"  
 alias lss="ls -Srl"  
 alias lsp="du -sh *" 
+alias ll='ls -alF'
+
+
 alias sizeinmb='"ls -lah" 
 alias cl='"clear; pwd; ls -l;"
 alias c='"clear"'  
