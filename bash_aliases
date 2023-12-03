@@ -25,7 +25,7 @@ alias hht="while  echo SERVER --  $(date) ; do sleep 300 ; done"
 
 alias sha="sha256sum garuda-cinnamon-linux-zen-231029.iso"
 alias netdis="sudo netdiscover -r 192.168.1.1/24"
-alias hunttv="freetuxtv -v --open-channel "Hunt Channel"
+alias hunttv='"freetuxtv -v --open-channel "Hunt Channel"'
  
 #
 ###
