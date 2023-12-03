@@ -47,4 +47,4 @@ cpufetch
 neofetch
 echo "source bash_aliases"
 echo "source bash_functions"
-
+echo "source bash_aliases; source bash_functions"
