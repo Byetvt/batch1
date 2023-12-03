@@ -18,7 +18,9 @@ alias tfind="find / -name "filename*.*""
 alias goetc="cd /etc/; pwd"
 alias findlargefiles="find / -xdev -type f -size +50M | xargs ls -lah"
 #
-alias mywget="wget --output-document batch100.sh https://raw.githubusercontent.com/Byetvt/batch1/main/batch100.sh;chmod 755 batch100.sh;./batch100.sh"
+alias mywgetbatch="wget --output-document batch100.sh https://raw.githubusercontent.com/Byetvt/batch1/main/batch100.sh;chmod 755 batch100.sh;./batch100.sh"
+alias mywgetaliases="wget --output-document batch_aliases https://raw.githubusercontent.com/Byetvt/batch1/main/batch_aliases"
+alias mywgetfunctions="wget --output-document batch_functions https://raw.githubusercontent.com/Byetvt/batch1/main/batch_functions"
 #
 ls -l bash_aliases
 alias
