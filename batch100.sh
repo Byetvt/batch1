@@ -40,10 +40,9 @@ sudo apt install  aisleriot -y
 tldr --update
 sudo apt install ttf-mscorefonts-installer -y
 mv bash_aliases bash_aliases.old
-wget --output-document bash_aliases https://raw.githubusercontent.com/Byetvt/batch1/main/bash_aliases
+mv bash_functions bash_functions.old
+wget --output-document bash_aliases   https://raw.githubusercontent.com/Byetvt/batch1/main/bash_aliases
 wget --output-document bash_functions https://raw.githubusercontent.com/Byetvt/batch1/main/bash_functions
-#source bash_aliases
-alias
 cpufetch
 neofetch
 echo "source bash_aliases"
