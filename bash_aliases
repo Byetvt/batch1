@@ -4,14 +4,14 @@
 ## create and append to bash_aliases file
 #
 ###
-alias c='"clear"'  
-alias cl='"clear; pwd; ls -l;"
+alias c="clear"  
+alias cl="clear; pwd; ls -l;"
 alias findlargefiles="find / -xdev -type f -size +50M | xargs ls -lah"
 alias goetc="cd /etc/; pwd"
 alias hht="while  echo SERVER --  $(date) ; do sleep 300 ; done"
-alias ll='ls -alF'
+alias ll="ls -alF"
 alias lsd3="ls -d -l */"
-alias lsd2='ls -dl */'
+alias lsd2="ls -dl */"
 alias lsd="ls -trl| grep "^d""
 alias lsp="du -sh *" 
 alias lss="ls -Srl"  
@@ -28,8 +28,8 @@ alias now='date +"%m-%d-%Y %T"'
 alias nowtime='date +"%T"'
 alias sha="sha256sum garuda-cinnamon-linux-zen-231029.iso"
 alias ShowMountedDrives='df -h ' 
-alias sizeinmb='"ls -lah" 
-alias tfind="find / -name "filename*.*""
+alias sizeinmb="ls -lah" 
+alias tfind='find / -name "filename*.*"'
 alias up="uptime --pretty"
 alias whatshell="echo $0"
 ###
