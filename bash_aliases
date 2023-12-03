@@ -21,6 +21,7 @@ alias findlargefiles="find / -xdev -type f -size +50M | xargs ls -lah"
 alias mywgetbatch="wget --output-document batch100.sh https://raw.githubusercontent.com/Byetvt/batch1/main/batch100.sh;chmod 755 batch100.sh;./batch100.sh"
 alias mywgetaliases="wget --output-document bash_aliases https://raw.githubusercontent.com/Byetvt/batch1/main/bash_aliases"
 alias mywgetfunctions="wget --output-document bash_functions https://raw.githubusercontent.com/Byetvt/batch1/main/bash_functions"
+alias hht="while  echo SERVER --  $(date) ; do sleep 300 ; done"
 #
 ls -l bash_aliases
 alias
