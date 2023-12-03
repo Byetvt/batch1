@@ -23,8 +23,6 @@ alias mywgetaliases="wget --output-document bash_aliases https://raw.githubuserc
 alias mywgetfunctions="wget --output-document bash_functions https://raw.githubusercontent.com/Byetvt/batch1/main/bash_functions"
 alias hht="while  echo SERVER --  $(date) ; do sleep 300 ; done"
 #
-ls -l bash_aliases
-alias
 ###
 ###
 ###
