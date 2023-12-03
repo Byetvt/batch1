@@ -34,5 +34,16 @@ pcal 2023 -w -s 0.9:0.2:0.1/1.0:1.0:0.8 -o 2023_yearly_color.ps
 ps2pdf 2023_yearly_color.ps
 }
 
+function functionaliaslist() {
+    echo
+    echo -e "\033[1;4;32m""Functions:""\033[0;34m"
+    compgen -A function
+    echo
+    echo -e "\033[1;4;32m""Aliases:""\033[0;34m"
+    compgen -A alias
+    echo
+    echo -e "\033[0m"
+}
+
 
 #
