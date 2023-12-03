@@ -32,6 +32,7 @@ sudo apt install nmon -y
 sudo apt install notepadqq -y
 sudo apt install pcal -y
 sudo apt install python3-pcbasic -y     # pcbasic to run it
+sudo apt install ps2pdf
 sudo apt install ripgrep -y
 sudo apt install rxvt -y
 sudo apt install smbclient -y
