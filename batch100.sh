@@ -42,6 +42,7 @@ sudo apt install tilex -y
 sudo apt install tldr -y
 sudo apt install vlc -y
 sudo apt install xboxdrv -y
+sudo apt install hashalot
 #
 #sudo apt install  -y
 #sudo apt install  -y
