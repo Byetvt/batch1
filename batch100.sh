@@ -45,8 +45,8 @@ sudo apt install vlc -y
 sudo apt install xboxdrv -y
 # wine for notepad++ 
 # wine npp-installer.exe
-sudo apt install wine -y
-sudo apt install winetricks -y
+#sudo apt install wine -y
+#sudo apt install winetricks -y
 #
 #sudo apt install  -y
 #sudo apt install  -y
