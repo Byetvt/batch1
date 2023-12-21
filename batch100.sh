@@ -16,6 +16,7 @@ sudo apt install git -y
 sudo apt install glances -y
 sudo apt install gparted -y
 sudo apt install hardinfo -y
+sudo apt install hashalot -y
 sudo apt install joystick -y
 sudo apt install jstest-gtk -y
 sudo apt install keepassxc -y
@@ -42,7 +43,10 @@ sudo apt install tilex -y
 sudo apt install tldr -y
 sudo apt install vlc -y
 sudo apt install xboxdrv -y
-sudo apt install hashalot
+# wine for notepad++ 
+# wine npp-installer.exe
+sudo apt install wine -y
+sudo apt install winetricks -y
 #
 #sudo apt install  -y
 #sudo apt install  -y
