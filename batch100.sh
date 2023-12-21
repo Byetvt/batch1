@@ -48,6 +48,7 @@ sudo apt install xboxdrv -y
 #sudo apt install wine -y
 #sudo apt install winetricks -y
 #
+# sudo apt install qemu-guest-agent -y
 #sudo apt install  -y
 #sudo apt install  -y
 #sudo apt install  -y
