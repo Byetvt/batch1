@@ -26,6 +26,7 @@ alias netdis="sudo netdiscover -r 192.168.1.1/24"
 alias nowdate='date +"%m-%d-%Y"'
 alias now='date +"%m-%d-%Y %T"'
 alias nowtime='date +"%T"'
+alias setfiletimestamp="touch -a -m -t 201512180130.09 fileName.ext"
 alias sha="sha256sum garuda-cinnamon-linux-zen-231029.iso"
 alias showfunctions="declare -F"
 alias showfunctions2="typeset -F"
