@@ -34,7 +34,11 @@ fi
 
 
 ###########################################
+$a=$(echo "ToUpperCase" | tr a-z A-Z); echo $a
+TOUPPERCASE
 
+$a=$(echo "ToLowerCase" | tr A-Z a-z); echo $a
+tolowercase
 # *********
 
 
