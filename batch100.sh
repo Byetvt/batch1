@@ -43,6 +43,12 @@ sudo apt install tilex -y
 sudo apt install tldr -y
 sudo apt install vlc -y
 sudo apt install xboxdrv -y
+#
+sudo apt install geany -y
+sudo apt install flameshot -y
+sudo apt install qalculate -y
+sudo apt install qalculate-gtk -y
+#  
 # wine for notepad++ 
 # wine npp-installer.exe
 #sudo apt install wine -y
