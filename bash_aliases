@@ -38,6 +38,11 @@ alias sizeinmb="ls -lah"
 alias tfind='find / -name "filename*.*"'
 alias up="uptime --pretty"
 alias whatshell="echo $0"
+#
+alias upd="sudo apt update; sudo apt upgrade"
+alias histme="history 500 > history_$(nowdate)_$(nowtime).txt"
+alias envme="env > env_$(nowdate)_$(nowtime).txt"
+alias qalcme="qalc 3*9"
 ###
 ##################################################################
 #unalias aliasname
