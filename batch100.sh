@@ -23,6 +23,9 @@ sudo apt install keepassxc -y
 sudo apt install kitty -y
 sudo apt install krita -y
 sudo apt install krusader -y
+sudo apt install ksnip -y
+#locasend flatpak install
+flatpak install flathub org.localsend.localsend_app
 sudo apt install ncal -y
 sudo apt install ncdu -y
 sudo apt install neofetch -y
