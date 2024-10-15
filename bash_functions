@@ -3,6 +3,16 @@ function hello() {
    echo "Hello, $1!"
 }
 
+#
+function fnc_now() {
+   echo "Hello, $1!"
+   a=$(date '+%F-%H-%M-%S') 
+   echo $a
+}
+
+
+
+
 ## whereis function
 function fr ()
 {
