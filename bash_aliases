@@ -44,6 +44,8 @@ alias upd="sudo apt update; sudo apt upgrade"
 alias histme="history 500 > history_$(nowdate)_$(nowtime).txt"
 alias envme="env > env_$(nowdate)_$(nowtime).txt"
 alias qalcme="qalc 3*9"
+alias mywebpage="xdg-open https://byetvt.github.io/My_Github_static_web_page/"
+
 ###
 ##################################################################
 #unalias aliasname
