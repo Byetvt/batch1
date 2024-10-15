@@ -25,7 +25,8 @@ alias mywgetnotes="wget --output-document bash_notes https://raw.githubuserconte
 alias myvars="env | grep aa"
 alias netdis="sudo netdiscover -r 192.168.1.1/24"
 alias nowdate='date +"%m-%d-%Y"'
-alias now='date +"%m-%d-%Y %T"'
+###alias now='date +"%m-%d-%Y %T"'
+alias now="fnc_now"
 alias nowtime='date +"%T"'
 alias setfiletimestamp="touch -a -m -t 201512180130.09 fileName.ext"
 alias sha="sha256sum garuda-cinnamon-linux-zen-231029.iso"
@@ -40,9 +41,9 @@ alias tfind='find / -name "filename*.*"'
 alias up="uptime --pretty"
 alias whatshell="echo $0"
 #
-alias upd="sudo apt update; sudo apt upgrade"
-alias histme="history 500 > history_$(nowdate)_$(nowtime).txt"
-alias envme="env > env_$(nowdate)_$(nowtime).txt"
+alias updme="sudo apt update; sudo apt upgrade"
+alias histme='history 500 > history_$(now).txt'
+alias envme="env > env_$(now).txt"
 alias qalcme="qalc 3*9"
 alias mywebpage="xdg-open https://byetvt.github.io/My_Github_static_web_page/"
 
@@ -54,3 +55,6 @@ alias mywebpage="xdg-open https://byetvt.github.io/My_Github_static_web_page/"
 aaTEMP="/var/tmp"
 export aaTEMP
 ##################################################################
+
+# . .bashrc   <== to reload .bashrc
+
