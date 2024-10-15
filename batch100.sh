@@ -44,6 +44,7 @@ sudo apt install tealdeer -y
 sudo apt install terminator -y
 sudo apt install tilex -y
 sudo apt install tldr -y
+sudo apt install ufw -y
 sudo apt install vlc -y
 sudo apt install xboxdrv -y
 #
@@ -69,6 +70,7 @@ mv bash_functions bash_functions.old
 wget --output-document bash_aliases   https://raw.githubusercontent.com/Byetvt/batch1/main/bash_aliases
 wget --output-document bash_functions https://raw.githubusercontent.com/Byetvt/batch1/main/bash_functions
 wget --output-document bash_notes   https://raw.githubusercontent.com/Byetvt/batch1/main/bash_notes
+sudo ufw enable
 cpufetch
 neofetch
 echo "cat bash_notes"
