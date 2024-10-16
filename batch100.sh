@@ -33,7 +33,8 @@ sudo apt install neovim -y
 sudo apt install netdiscover -y
 sudo apt install net-tools -y
 sudo apt install nmon -y
-sudo apt install notepadqq -y
+## notepadqq crashes often in Mint
+##sudo apt install notepadqq -y
 sudo apt install pcal -y
 sudo apt install python3-pcbasic -y     # pcbasic to run it
 sudo apt install ps2pdf
@@ -75,3 +76,4 @@ cpufetch
 neofetch
 echo "cat bash_notes"
 echo "source bash_aliases; source bash_functions"
+echo "sudo apt remove notepadqq"
