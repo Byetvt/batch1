@@ -6,6 +6,12 @@
 ###
 alias c="clear"  
 alias cl="clear; pwd; ls -l;"
+###
+## Run the functions
+echo Run the functions
+source bash_functions
+fnc_now
+###
 alias findlargefiles="find / -xdev -type f -size +50M | xargs ls -lah"
 alias goetc="cd /etc/; pwd"
 alias hht="while  echo SERVER --  $(date) ; do sleep 300 ; done"
