@@ -9,8 +9,8 @@ function fnc_now() {
    echo $a
 }
 
-
-
+#same function in one line
+function one_line_fnc_now2() {    a=$(date '+%F-%H-%M-%S') echo $a; }
 
 ## whereis function
 function fr ()
