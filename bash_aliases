@@ -48,10 +48,11 @@ alias up="uptime --pretty"
 alias whatshell="echo $0"
 #
 alias updme="sudo apt update; sudo apt upgrade"
-alias histme='history 500 > history_$(now).txt'
+alias histme='history 500 > history_$(now).txt ;ls -l history_$(now).txt'
 alias envme="env > env_$(now).txt"
 alias qalcme="qalc 3*9"
 alias mywebpage="xdg-open https://byetvt.github.io/My_Github_static_web_page/"
+alias list_grub_boot_entries="sudo awk -F\' '/menuentry / {print \$2}\' /boot/grub/grub.cfg"
 
 ###
 ##################################################################
