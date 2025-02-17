@@ -5,6 +5,7 @@ sudo apt install alacritty -y
 sudo apt install angrydd -y
 sudo apt install bmon -y
 sudo apt install btop -y
+sudo apt install cherryedit -y
 sudo apt install chromium -y
 sudo apt install cifs-utils -y
 sudo apt install cmatrix -y
@@ -19,6 +20,7 @@ sudo apt install hardinfo -y
 sudo apt install hashalot -y
 sudo apt install joystick -y
 sudo apt install jstest-gtk -y
+sudo apt install kate -y
 sudo apt install keepassxc -y
 sudo apt install kitty -y
 sudo apt install krita -y
@@ -76,4 +78,15 @@ cpufetch
 neofetch
 echo "cat bash_notes"
 echo "source bash_aliases; source bash_functions"
-echo "sudo apt remove notepadqq"
+#
+# install snapd and notepad-plus-plus
+echo install snapd and notepad-plus-plus
+echo sudo apt install snapd
+echo snap list
+echo sudo snap install notepad-plus-plus
+echo snap list
+echo snap run notepad-plus-plus
+#
+#
+
+
