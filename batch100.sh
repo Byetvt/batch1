@@ -94,6 +94,7 @@ echo sudo snap install notepad-plus-plus
 echo snap list
 echo snap run notepad-plus-plus
 #
+echo install notepadnext flatpak from software center
 #
 
 
