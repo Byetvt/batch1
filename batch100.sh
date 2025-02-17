@@ -5,7 +5,7 @@ sudo apt install alacritty -y
 sudo apt install angrydd -y
 sudo apt install bmon -y
 sudo apt install btop -y
-sudo apt install cherryedit -y
+sudo apt install cherrytree -y
 sudo apt install chromium -y
 sudo apt install cifs-utils -y
 sudo apt install cmatrix -y
