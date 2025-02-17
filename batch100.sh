@@ -79,6 +79,13 @@ neofetch
 echo "cat bash_notes"
 echo "source bash_aliases; source bash_functions"
 #
+echo sudo cp -p /etc/apt/preferences.d/nosnap.pref /etc/apt/preferences.d/nosnap.pref_20250216
+echo ls -trl /etc/apt/preferences.d/
+echo # activate snap store on mint
+echo sudo rm /etc/apt/preferences.d/nosnap.pref
+echo ls -trl /etc/apt/preferences.d/
+echo sudo apt update
+# 
 # install snapd and notepad-plus-plus
 echo install snapd and notepad-plus-plus
 echo sudo apt install snapd
