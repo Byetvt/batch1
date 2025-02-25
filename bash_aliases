@@ -59,7 +59,7 @@ alias qalcme="qalc 3*9"
 alias mywebpage="xdg-open https://byetvt.github.io/My_Github_static_web_page/"
 alias list_grub_boot_entries="sudo awk -F\' '/menuentry / {print \$2}\' /boot/grub/grub.cfg"
 alias grub_backup='eval sudo cp -p /etc/default/grub /etc/default/grub_$(fnc_now); ls -l /etc/default/grub_$(fnc_now)'; 
-
+alias hgrep="history 500 | grep $1"
 
 ###
 ##################################################################
