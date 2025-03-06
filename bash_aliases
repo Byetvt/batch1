@@ -55,7 +55,7 @@ alias showmounteddrives="df -h"
 alias sizeinmb="ls -lah" 
 alias tfind='find / -name "filename*.*"'
 alias up="uptime --pretty"
-alias updme="sudo apt update; sudo apt upgrade"
+alias updme="sudo apt update; sudo apt upgrade -y"
 alias whatshell="echo $0"
 #
 #
