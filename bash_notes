@@ -81,5 +81,8 @@ sudo apt --fix-broken install
 anydesk --version
 anydesk
 
+____ localsend
+flatpak install flathub org.localsend.localsend_app
+flatpak run org.localsend.localsend_app
 
 
