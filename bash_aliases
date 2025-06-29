@@ -18,6 +18,7 @@ alias c="clear"
 alias cl="clear; pwd; ls -l;"
 alias envme='eval env > env_$(fnc_now).txt; ls -l env_$(fnc_now).txt'
 alias findlargefiles="find / -xdev -type f -size +50M | xargs ls -lah"
+alias getpassword='read -s -p "Enter password: " PASSWORD'
 alias goetc="cd /etc/; pwd"
 alias grub_backup='eval sudo cp -p /etc/default/grub /etc/default/grub_$(fnc_now); ls -l /etc/default/grub_$(fnc_now)'; 
 alias hgrep="history 500 | grep $1"
@@ -29,6 +30,7 @@ alias localsend="flatpak run org.localsend.localsend_app"
 alias lsd2="ls -dl */"
 alias lsd3="ls -d -l */"
 alias lsd="ls -trl| grep "^d""
+alias lsft="ls -l --time-style=full-iso"
 alias lsp="du -sh *" 
 alias lss="ls -Srl"  
 alias lst="ls -trl"  
@@ -57,6 +59,7 @@ alias tfind='find / -name "filename*.*"'
 alias up="uptime --pretty"
 alias updme="sudo apt update; sudo apt upgrade -y"
 alias whatshell="echo $0"
+alias xrdphow="echo xfreerdp /u:username /v:ipaddres /p:dollarPassword /cert:ignore"
 #
 #
 #
