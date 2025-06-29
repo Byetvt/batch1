@@ -85,6 +85,8 @@ ____ localsend
 sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub org.localsend.localsend_app
+sudo ufw allow 53317/udp
+sudo ufw allow 53317/tcp
 flatpak run org.localsend.localsend_app
 
 
