@@ -11,6 +11,7 @@ sudo apt install cifs-utils -y
 sudo apt install cmatrix -y
 sudo apt install cpufetch -y
 sudo apt install ffmeg -y
+sudo apt install freerdp2-x11 -y
 sudo apt install freetuxtv -y
 sudo apt install fzf -y
 sudo apt install git -y
@@ -18,8 +19,8 @@ sudo apt install glances -y
 sudo apt install gparted -y
 sudo apt install hardinfo -y
 sudo apt install hashalot -y
-sudo apt install joystick -y
-sudo apt install jstest-gtk -y
+##sudo apt install joystick -y
+##sudo apt install jstest-gtk -y
 sudo apt install kate -y
 sudo apt install keepassxc -y
 sudo apt install kitty -y
@@ -31,6 +32,7 @@ flatpak install flathub org.localsend.localsend_app
 sudo apt install mc -y
 sudo apt install ncal -y
 sudo apt install ncdu -y
+sudo apt install nemo-terminal -y
 sudo apt install neofetch -y
 sudo apt install neovim -y
 sudo apt install netdiscover -y
@@ -50,7 +52,7 @@ sudo apt install tilex -y
 sudo apt install tldr -y
 sudo apt install ufw -y
 sudo apt install vlc -y
-sudo apt install xboxdrv -y
+##sudo apt install xboxdrv -y
 #
 sudo apt install geany -y
 sudo apt install flameshot -y
