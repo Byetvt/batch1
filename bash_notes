@@ -74,6 +74,12 @@ cat /etc/profile.d/myhost.sh
 export my_hostname="Laptop_1"
 ____
 
+____ anydesk
+wget https://download.anydesk.com/linux/anydesk_7.0.0-1_amd64.deb
+sudo dpkg -i anydesk_7.0.0-1_amd64.deb
+sudo apt --fix-broken install
+anydesk --version
+anydesk
 
 
 
