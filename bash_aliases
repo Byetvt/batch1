@@ -62,6 +62,12 @@ alias whatshell="echo $0"
 alias xrdphow="echo xfreerdp /u:username /v:ipaddres /p:dollarPassword /cert:ignore"
 #
 #
+CDPATH=$HOME
+alias lssize="ls -lhSr"
+alias upflat="sudo flatpak update"
+alias mint_cinna_later_logout_now="cinnamon-session-quit --logout --no-prompt"
+alias gnomeout="gnome-session-quit --logout --no-prompt"
+alias getvulkan='vulkaninfo | grep "GPU id"'
 #
 #
 ###alias now='date +"%m-%d-%Y %T"'
