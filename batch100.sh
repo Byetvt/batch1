@@ -100,5 +100,8 @@ echo snap run notepad-plus-plus
 #
 echo install notepadnext flatpak from software center
 #
+sudo apt install plocate
+sudo updatedb
+
 
 
