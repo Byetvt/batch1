@@ -89,4 +89,14 @@ sudo ufw allow 53317/udp
 sudo ufw allow 53317/tcp
 flatpak run org.localsend.localsend_app
 
+#myshare
+sudo mkdir -p /mnt/myshare
+
+#
+echo yt-dlp --no-mtime url 
+
+echo startup icon "gnome-terminal --working-directory=/$HOME"
+
+#after CDPATH installed cd Downloads will work even if the current path is /etc
+cd Downloads 
 
