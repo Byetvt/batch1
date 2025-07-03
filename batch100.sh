@@ -59,6 +59,7 @@ sudo apt install geany -y
 sudo apt install flameshot -y
 sudo apt install qalculate -y
 sudo apt install qalculate-gtk -y
+sudo apt install vulkan-tools -y
 #  
 # wine for notepad++ 
 # wine npp-installer.exe
