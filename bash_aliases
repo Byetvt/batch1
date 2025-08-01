@@ -58,6 +58,7 @@ alias sizeinmb="ls -lah"
 alias tfind='find / -name "filename*.*"'
 alias up="uptime --pretty"
 alias updme="sudo apt update; sudo apt upgrade -y"
+alias whatos="cat /etc/os-release"
 alias whatshell="echo $0"
 alias xrdphow="echo xfreerdp /u:username /v:ipaddres /p:dollarPassword /cert:ignore"
 #
