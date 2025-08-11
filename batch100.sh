@@ -110,5 +110,9 @@ echo install notepadnext flatpak from software center
 sudo apt install plocate
 sudo updatedb
 
+## wget --output-document bash_flatpaks https://raw.githubusercontent.com/Byetvt/batch1/main/bash_flatpaks
+## wget --output-document export_flatpaks_ordered_to_screen.sh https://raw.githubusercontent.com/Byetvt/batch1/main/export_flatpaks_ordered_to_screen.sh
+
+
 figlet Done!
 
