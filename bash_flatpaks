@@ -1,9 +1,9 @@
 #!/bin/bash
 flatpak install -y flathub org.linux_hardware.hw-probe
 flatpak install -y flathub io.missioncenter.MissionCenter
-flatpak install -y flathub io.github.arunsivaramanneo.GPUViewer
-flatpak install -y flathub org.virt_manager.virt-manager
-flatpak install -y flathub org.mozilla.Thunderbird
+##flatpak install -y flathub io.github.arunsivaramanneo.GPUViewer
+##flatpak install -y flathub org.virt_manager.virt-manager
+##flatpak install -y flathub org.mozilla.Thunderbird
 flatpak install -y flathub io.github.amit9838.mousam
 flatpak install -y flathub io.gitlab.adhami3310.Converter
 flatpak install -y flathub io.gitlab.news_flash.NewsFlash
@@ -21,13 +21,13 @@ flatpak install -y flathub de.schmidhuberj.tubefeeder
 flatpak install -y flathub org.kde.klevernotes
 flatpak install -y flathub org.videolan.VLC
 flatpak install -y flathub io.bassi.Amberol
-flatpak install -y flathub org.libreoffice.LibreOffice
+##flatpak install -y flathub org.libreoffice.LibreOffice
 flatpak install -y flathub org.audacityteam.Audacity
 flatpak install -y flathub org.gimp.GIMP
 flatpak install -y flathub org.kde.krita
 flatpak install -y flathub org.keepassxc.KeePassXC
 flatpak install -y flathub org.gnome.Aisleriot
-flatpak install -y flathub org.chromium.Chromium
+##flatpak install -y flathub org.chromium.Chromium
 flatpak install -y flathub org.localsend.localsend_app
 ##flatpak install -y flathub com.freerdp.FreeRDP   # doesnt work on Wayland?
 ##flatpak install -y flathub com.rustdesk.RustDesk # doesnt work on Wayland?
