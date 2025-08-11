@@ -11,6 +11,7 @@ sudo apt install cifs-utils -y
 sudo apt install cmatrix -y
 sudo apt install cpufetch -y
 sudo apt install ffmeg -y
+sudo apt install figlet -y
 sudo apt install flatpak -y
 sudo apt install freerdp2-x11 -y
 sudo apt install freetuxtv -y
@@ -104,5 +105,5 @@ echo install notepadnext flatpak from software center
 sudo apt install plocate
 sudo updatedb
 
-
+figlet Done!
 
