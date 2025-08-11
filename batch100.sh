@@ -100,6 +100,11 @@ echo sudo snap install notepad-plus-plus
 echo snap list
 echo snap run notepad-plus-plus
 #
+# Use appimage of notepad-plus-plus instead
+# https://github.com/mmtrt/notepad-plus-plus_AppImage
+# https://github.com/mmtrt/notepad-plus-plus_AppImage/releases/tag/stable
+#
+#
 echo install notepadnext flatpak from software center
 #
 sudo apt install plocate
