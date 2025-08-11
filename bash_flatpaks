@@ -32,3 +32,15 @@ flatpak install -y flathub org.localsend.localsend_app
 ##flatpak install -y flathub com.freerdp.FreeRDP   # doesnt work on Wayland?
 ##flatpak install -y flathub com.rustdesk.RustDesk # doesnt work on Wayland?
 ## flatpak install -y flathub com.anydesk.Anydesk  # doesnt work on Wayland?
+
+## list
+##flatpak list --columns=ref,size
+
+## list sorted by size
+## flatpak list --app --columns=size,name | sort -h
+
+## uninstall
+## flatpak uninstall org.gnome.VirtualMachineManager
+
+## remove all data associated with the app, add the --delete-data flag:
+## flatpak uninstall --delete-data org.gnome.VirtualMachineManager
