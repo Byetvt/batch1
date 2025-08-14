@@ -38,6 +38,41 @@ function hunt_tv() {
 freetuxtv -v --open-channel "Hunt Channel"
 }
 
+function make_pdf_monthly_calendar() {
+  read -p "Enter a 4-digit year: " year
+
+  # Check if it's exactly 4 digits
+  if [[ ! "$year" =~ ^[0-9]{4}$ ]]; then
+    echo "Error: Please enter a valid 4-digit year."
+    return 1
+  fi
+
+  pcal 1 "$year" 12 -s 0.9:0.2:0.1/1.0:1.0:0.8 -o ${year}_monthly_color.ps
+  ps2pdf "${year}_monthly_color.ps"
+  
+  ls -l ${year}_monthly_color.p*
+
+# pcal 1 2025 12    -s 0.9:0.2:0.1/1.0:1.0:0.8  -o 2025_monthly_color.ps
+}
+
+function make_pdf_yearly_calendar() {
+  read -p "Enter a 4-digit year: " year
+
+  # Check if it's exactly 4 digits
+  if [[ ! "$year" =~ ^[0-9]{4}$ ]]; then
+    echo "Error: Please enter a valid 4-digit year."
+    return 1
+  fi
+
+  pcal "$year" -w -s 0.9:0.2:0.1/1.0:1.0:0.8 -o ${year}_yearly_color.ps
+  ps2pdf "${year}_yearly_color.ps"
+  
+  ls -l ${year}_yearly_color.p*
+
+#pcal 2023 -w -s 0.9:0.2:0.1/1.0:1.0:0.8 -o 2023_yearly_color.ps
+#ps2pdf 2023_yearly_color.ps
+}
+
 function make_pdf_cal() {
 pcal 2023 -w -s 0.9:0.2:0.1/1.0:1.0:0.8 -o 2023_yearly_color.ps
 ps2pdf 2023_yearly_color.ps
