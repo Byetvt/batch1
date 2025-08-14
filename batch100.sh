@@ -79,6 +79,9 @@ mv bash_functions bash_functions.old
 wget --output-document bash_aliases   https://raw.githubusercontent.com/Byetvt/batch1/main/bash_aliases
 wget --output-document bash_functions https://raw.githubusercontent.com/Byetvt/batch1/main/bash_functions
 wget --output-document bash_notes   https://raw.githubusercontent.com/Byetvt/batch1/main/bash_notes
+wget --output-document export_flatpaks_ordered_to_screen.sh https://raw.githubusercontent.com/Byetvt/batch1/main/export_flatpaks_ordered_to_screen.sh
+wget --output-document bash_flatpaks https://raw.githubusercontent.com/Byetvt/batch1/main/bash_flatpaks
+
 sudo ufw enable
 cpufetch
 neofetch
