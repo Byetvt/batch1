@@ -100,3 +100,11 @@ echo startup icon "gnome-terminal --working-directory=/$HOME"
 #after CDPATH installed cd Downloads will work even if the current path is /etc
 cd Downloads 
 
+
+ ###   pcal 1 2023 12 -s 0.9:0.2:0.1/1.0:1.0:0.8  -f my_dates_list.txt -n Times-Roman/12    -o 2023_monthly_color.ps
+ ###   pcal 1 2023 12 -s 0.9:0.2:0.1/1.0:1.0:0.8  -o 2023_monthly_color.ps
+ ###   ps2pdf 2023_monthly_color.ps
+ ###   pcal 1 2025 12 -s 0.9:0.2:0.1/1.0:1.0:0.8  -o 2025_monthly_color.ps
+ ###   ps2pdf 2025_monthly_color.ps
+ 
+
