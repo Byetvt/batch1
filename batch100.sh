@@ -10,7 +10,7 @@ sudo apt install chromium -y
 sudo apt install cifs-utils -y
 sudo apt install cmatrix -y
 sudo apt install cpufetch -y
-sudo apt install ffmeg -y
+sudo apt install ffmpeg -y
 sudo apt install figlet -y
 sudo apt install flatpak -y
 sudo apt install freerdp2-x11 -y
