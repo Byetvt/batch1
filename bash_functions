@@ -89,5 +89,16 @@ function functionaliaslist() {
     echo -e "\033[0m"
 }
 
+histme() {
+    local ts="$(fnc_now)"
+    local suffix="$1"
+    local filename="history_${ts}"
+    if [ -n "$suffix" ]; then
+        filename="${filename}_${suffix}"
+    fi
+    filename="${filename}.txt"
+    history 500 > "$filename"
+    ls -l "$filename"
+}
 
 #
