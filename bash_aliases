@@ -43,6 +43,7 @@ alias mywgetaliases="wget --output-document bash_aliases https://raw.githubuserc
 alias mywgetbatch="wget --output-document batch100.sh https://raw.githubusercontent.com/Byetvt/batch1/main/batch100.sh;chmod 755 batch100.sh"
 alias mywgetfunctions="wget --output-document bash_functions https://raw.githubusercontent.com/Byetvt/batch1/main/bash_functions"
 alias mywgetnotes="wget --output-document bash_notes https://raw.githubusercontent.com/Byetvt/batch1/main/bash_notes"
+alias mywgetall="mywgetbatch; mywgetaliases; mywgetfunctions; mywgetnotes; mywgetflatpak_export; mywgetflatpaks"
 alias netdis="sudo netdiscover -r 192.168.1.1/24"
 alias now="fnc_now"
 alias nowdate='date +"%m-%d-%Y"'
