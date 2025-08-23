@@ -21,6 +21,7 @@ sudo apt install glances -y
 sudo apt install gparted -y
 sudo apt install hardinfo -y
 sudo apt install hashalot -y
+sudo apt install inxi -y
 ##sudo apt install joystick -y
 ##sudo apt install jstest-gtk -y
 sudo apt install kate -y
