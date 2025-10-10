@@ -3,6 +3,7 @@ echo "wget --output-document batch100.sh https://raw.githubusercontent.com/Byetv
 sudo apt install aisleriot -y
 sudo apt install alacritty -y
 sudo apt install angrydd -y
+sudo apt install bat -y    # like cat, exe is batcat on UBU and MINT
 sudo apt install bmon -y
 sudo apt install btop -y
 sudo apt install cherrytree -y
