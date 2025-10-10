@@ -14,6 +14,7 @@ fnc_now
 #
 #
 #
+alias bat='batcat'   # like cat, exe is batcat on UBU and MINT
 alias c="clear"  
 alias cl="clear; pwd; ls -l;"
 alias envme='eval env > env_$(fnc_now).txt; ls -l env_$(fnc_now).txt'
