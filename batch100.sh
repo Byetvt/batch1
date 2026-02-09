@@ -118,6 +118,12 @@ sudo updatedb
 ## wget --output-document bash_flatpaks https://raw.githubusercontent.com/Byetvt/batch1/main/bash_flatpaks
 ## wget --output-document export_flatpaks_ordered_to_screen.sh https://raw.githubusercontent.com/Byetvt/batch1/main/export_flatpaks_ordered_to_screen.sh
 
+sudo apt install kdiff3 -y
+sudo apt install mono-complete -y
+sudo apt-get install cifs-utils -y
+sudo apt install smartctl -y
+sudo apt install smartmontools -y
+sudo apt install gsmartcontrol -y 
 
 figlet Done!
 
