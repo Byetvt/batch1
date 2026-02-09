@@ -45,5 +45,5 @@ flatpak install -y flathub org.localsend.localsend_app
 ## remove all data associated with the app, add the --delete-data flag:
 ## flatpak uninstall --delete-data org.gnome.VirtualMachineManager
 
-flatpak install flathub com.poweriso.PowerISO
-flatpak install flathub io.github.dosbox-staging
+flatpak install -y flathub com.poweriso.PowerISO
+flatpak install -y flathub io.github.dosbox-staging
